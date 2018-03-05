@@ -13,7 +13,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-
+        Server.Transfer("AddTask.aspx", true);
     }
     protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
     {
